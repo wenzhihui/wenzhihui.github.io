@@ -1,0 +1,156 @@
+html,body,div,ul,li,input,span,a,img,p,h1,h2,h3,h4,h5,h6,form{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.clearfix::before,.clearfix::after{
+	content: "";
+	clear: both;
+	height: 0;
+	display: block;
+	visibility: hidden;
+	overflow: hidden;
+}
+input,textarea{
+	outline-style:none;
+	outline: none;
+	-webtkit-appearance:none;
+    border:none;
+    resize:none;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+body{
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+img{
+	vertical-align:middle;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.zjr_header{
+	/*position:absolute;*/
+	position: relative;
+	position: fixed;
+	width: 100%;
+	max-width: 650px;
+	min-width: 300px;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+.zjr_header div{
+	background-color:white;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+}
+.zjr_header div span{
+	text-align: center;
+}
+.zjr_header div img{
+	width:100%;
+	/*height: 42px;
+	position: absolute;
+	left: 10px;*/
+}
+.zjr_header div a:nth-child(1){
+	width: 62px;
+	height: 42px;
+	position: absolute;
+	left: 10px;
+}
+.zjr_header div a:nth-child(3){
+	display: block;
+	position: absolute;
+	color: black;
+	right: 10px;
+	bottom: 0;
+}
+.base-bottom{
+	width: 100%;
+	height:46px;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	border-top: solid 1px #fbfbfb;
+	border-bottom: solid 1px #fbfbfb;
+	background-color: white;
+}
+.base-bottom a{
+	float: left;
+	width: 20%;
+}
+.base-bottom a em{
+	display: block;
+	width: 100%;
+	height: 23px;
+}
+.base-bottom a em img{
+	width: 23px;
+	height: 23px;
+	vertical-align:baseline;
+	margin: 0;
+	padding: 0;
+}
+.base-bottom a span{
+	font-size: 12px;
+	color: #000000;
+}
+
+.zjr_banner{
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.zjr_banner ul:nth-child(1){
+	width: 600%;
+	overflow: hidden;
+	padding-top: 43px;
+	transform: translateX(-16.66666666666%);
+}
+.zjr_banner ul:nth-child(1) li{
+	float: left;
+	width:16.666666666666%;
+	
+}
+.zjr_banner ul:nth-child(1) li a{
+	display: block;
+	width: 100%;
+}
+.zjr_banner ul:nth-child(1) li a img{
+	max-width: 650px;
+	min-width: 300px;
+	width: 100%;
+}
+/*小圆点开始*/
+.zjr_banner ul:nth-child(2){
+	width: 60px;
+	position: absolute;
+	left: 50%;
+	bottom: 10px;
+	margin-left: -30px;
+	
+}
+.zjr_banner ul:nth-child(2) li{
+	float: left;
+	width: 10px;
+	height: 10px;
+	border: solid 1px #999999;
+	border-radius:50%;
+	margin-right: 5px;
+}
+.xyd{
+	background-color: white;
+}
+/*小圆点结束*/

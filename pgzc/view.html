@@ -1,0 +1,15 @@
+<div ng-app="pgzcApp" ng-controller="pgzcController">
+	<ul>
+		<li ng-repeat="item in data">
+			<a href="">
+				<img src="{{item.image}}" alt="" />
+				<div class="div">
+					<p>{{item.name}}</p>
+					<p>{{item.mo}}</p>
+					<span>{{item.money}}</span>
+					<span>立即购买</span>
+				</div>
+			</a>
+		</li>
+	</ul>
+</div>

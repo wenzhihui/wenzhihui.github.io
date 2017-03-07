@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>自家人杂货铺</title>
+		<link rel="stylesheet" type="text/css" href="css/bacs.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	</head>
+	<body>
+		<div class="zjr">
+			<!--头部开始-->
+			<header class="zjr_header">
+				<div>
+					<a href="#">
+						<img src="img/logo.png" alt="" />
+					</a>
+					<span>自家人杂货铺</span>
+					<a href="">搜索</a>
+				</div>
+			</header>
+			<!--头部结束-->
+			<!--banner轮播图开始-->
+			<div class="zjr_banner">
+				<ul>
+					<li>
+						<a href="">
+							<img src="img/4.jpg"/>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/1.jpg"/>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="img/2.jpg"/>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="img/3.jpg"/>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="img/4.jpg"/>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/1.jpg"/>
+						</a>
+					</li>
+				</ul>
+				<ul>
+					<li class="xyd"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+			<!--banner轮播图结束-->
+			<!--菜单栏开始-->
+			<div class="menu">
+				<ul class="clearfix">
+					<li>
+						<a href="shoujihui.html">
+							<span></span>
+							手机惠
+							<!--<span>手机惠</span>-->
+						</a>
+					</li>
+					<li>
+						<a href="shumagang.html">
+							<span></span>
+							数码港
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<span></span>
+							海外阔
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<span></span>
+							分类
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<span></span>
+							新品尝鲜
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<span></span>
+							9.9专区
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<span></span>
+							二货
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<span></span>
+							新人礼包
+						</a>
+					</li>
+					
+				</ul>
+			</div>
+			<!--菜单栏结束-->
+			<!--掌上钜惠开始-->
+			<div class="zjr_mec-z">
+				<div>掌上钜惠</div>
+				<ul class="clearfix">
+					<li class="fl">
+						<a href="">
+							<img src="img/z1.jpg" alt="" />
+						</a>
+					</li>
+					<li class="fr">
+						<a href="">
+							<img src="img/z2.jpg" alt="" />
+						</a>
+						<a href="">
+							<img src="img/z3.jpg" alt="" />
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!--掌上钜惠结束-->
+			<!--淘机馆开始-->
+			<div class="zjr_mec-t">
+				<div>淘机馆</div>
+				<ul class="clearfix">
+					<li class="fl">
+						<a href="">
+							<img src="img/t2.jpg" alt="" />
+						</a>
+						<a href="">
+							<img src="img/t3.jpg" alt="" />
+						</a>
+					</li>
+					<li class="fr">
+						<a href="">
+							<img src="img/t1.jpg" alt="" />
+						</a>
+					</li>
+				</ul>
+				<div>
+					<a href=""></a>
+					<a href=""></a>
+					<a href=""></a>
+					<a href=""></a>
+				</div>
+			</div>
+			<!--淘机馆结束-->
+			<!--酷玩邦开始-->
+			<div class="zjr_mec-k">
+				<div>酷玩帮</div>
+				<ul class="clearfix">
+					<li class="fr clearfix">
+						<a href="">
+							<img src="img/k2.jpg" alt="" />
+						</a>
+						<a href="">
+							<img src="img/k3.jpg" alt="" />
+						</a>
+					</li>
+					<li class="fl clearfix">
+						<a href="">
+							<img src="img/k1.jpg" alt="" />
+						</a>
+					</li>
+				</ul>
+				<div>
+					<a href=""></a>
+					<a href=""></a>
+					<a href=""></a>
+					<a href=""></a>
+				</div>
+			</div>
+			<!--酷玩邦结束-->
+			
+			
+			<!--公共开始-->
+			<div class="min clearfix">
+				<div>折扣惠</div>
+				<ul ng-app="remenApp" ng-controller="remenController" class="clearfix">
+					<li class="item" ng-repeat="item in data">
+						<a href="#" >
+							<img src="{{item.image}}"/>
+							<p>{{item.name}}</p>
+							<p class="hh">{{item.hh}}</p>
+							<span>{{item.money}}</span>
+							<span>立即购买</span>
+						</a>
+					</li>
+					
+				</ul>
+				
+			</div>
+			<!--公共结束-->
+			
+			<!--页尾开始-->
+			<!--<div class="fot">
+				<img src="img/i10_v3.jpg" alt="" />
+			</div>-->
+			
+			<!--导航开始-->
+			<!--底部公共样式开始-->
+			<div class="base-bottom clearfix">
+				<!--今日折扣-->
+				<a href="index.html">
+					<em>
+						<img src="img/1.png" alt="" />
+					</em>
+					<span>杂货铺</span>
+				</a>
+				<!--居家馆-->
+				<a href="fmaily.html">
+					<em>
+						<img src="img/2.png" alt="" />
+					</em>
+					<span>窝货</span>
+				</a>
+				<!--全球购-->
+				<a href="haiwai2017.html">
+					<em>
+						<img src="img/3.png" alt="" />
+					</em>
+					<span>代购杂货</span>
+				</a>
+				<!--购物车-->
+				<a href="#">
+					<em>
+						<img src="img/4.png" alt="" />
+					</em>
+					<span>货车</span>
+				</a>
+				<!--我的卷皮-->
+				<a href="personal.html">
+					<em>
+						<img src="img/5.png" alt="" />
+					</em>
+					<span>你的杂货间</span>
+				</a>
+			</div>
+			<!--底部公共样式结束-->
+			<!--导航结束-->
+			<!--页尾结束-->
+		</div>
+		<script src="js/angular.js"></script>
+		<script src="js/angular-route.js"></script>
+		<script src="js/index.js"></script>
+	</body>
+</html>

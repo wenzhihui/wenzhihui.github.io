@@ -1,0 +1,266 @@
+.zjr{
+	width: 100%;
+	max-width: 650px;
+	min-width: 300px;
+	background-color: #f1f1f4;
+}
+.zjr_banner{
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.zjr_banner ul:nth-child(1){
+	width: 600%;
+	overflow: hidden;
+	padding-top: 43px;
+	transform: translateX(-16.66666666666%);
+}
+.zjr_banner ul:nth-child(1) li{
+	float: left;
+	width:16.666666666666%;
+	
+}
+.zjr_banner ul:nth-child(1) li a{
+	display: block;
+	width: 100%;
+}
+.zjr_banner ul:nth-child(1) li a img{
+	max-width: 650px;
+	min-width: 300px;
+	width: 100%;
+}
+/*小圆点开始*/
+.zjr_banner ul:nth-child(2){
+	width: 60px;
+	position: absolute;
+	left: 50%;
+	bottom: 10px;
+	margin-left: -30px;
+	
+}
+.zjr_banner ul:nth-child(2) li{
+	float: left;
+	width: 10px;
+	height: 10px;
+	border: solid 1px #999999;
+	border-radius:50%;
+	margin-right: 5px;
+}
+.xyd{
+	background-color: white;
+}
+/*小圆点结束*/
+
+/*菜单栏开始*/
+.menu{
+	width: 100%;
+	
+}
+.menu ul{
+	width: 100%;
+	border-bottom:1px solid #d8d8d8;
+	background-color: white;
+}
+.menu ul li{
+	width: 25%;
+	height: 75px;
+	float: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	/*position: relative;*/
+}
+.menu ul li a{
+	height: 23px;
+	padding-top: 52px;
+	display: block;
+	position: relative;
+	text-align: center;
+	color:#999999;
+	
+}
+.menu ul li a span{
+	display: block;
+	position: absolute;
+	top: 5px;
+	left:50%;
+	margin-left: -21px;
+	text-align: center;
+	width: 42px;
+	height: 42px;
+	background-size: 150px 150px;
+}
+.menu ul li:nth-child(1) span{
+	background-image: url(../img/newsprites.png);
+	background-position: 0 0;
+}
+.menu ul li:nth-child(2) span{
+	background-image: url(../img/newsprites.png);
+	background-position: -42px 0;
+}
+.menu ul li:nth-child(3) span{
+	background-image: url(../img/newsprites.png);
+	background-position: 0 -43px;
+}
+.menu ul li:nth-child(4) span{
+	background-image: url(../img/newsprites.png);
+	background-position: -84px 0;
+}
+.menu ul li:nth-child(5) span{
+	background-image: url(../img/homeIconSprites.png);
+	background-position: 0px 0px;
+	background-size: 42px 84px;
+}
+.menu ul li:nth-child(6) span{
+	background-image: url(../img/newsprites.png);
+	background-position: -42px -43px;
+}
+.menu ul li:nth-child(7) span{
+	background-image: url(../img/newsprites.png);
+	background-position: -85px -43px;
+}
+.menu ul li:nth-child(8) span{
+	background-image: url(../img/homeIconSprites.png);
+	background-position: 0px -42px;
+	background-size: 42px 84px;
+}
+
+/*.menu ul li a span{
+	width: 41px;
+	height: 41px;
+	background-image: url(../img/newsprites.png);
+	background-size: 150px 150px;
+	background-position: 0 0;
+}*/
+/*菜单栏结束*/
+
+/*掌上钜惠开始*/
+.zjr_mec-z,.zjr_mec-t,.zjr_mec-k{
+	width: 100%;
+	border-top: 1px solid #d8d8d8;
+	margin-top: 15px;
+	background-color:white;
+}
+.zjr_mec-z div,.zjr_mec-t div,.zjr_mec-k div,.foot div{
+	height: 35px;
+	line-height: 35px;
+	padding-left: 5px;
+	font-size:18px;
+}
+.zjr_mec-z ul{
+	width: 100%;
+}
+.zjr_mec-z ul li{
+	width: 49.8%;
+}
+.zjr_mec-z ul li:nth-child(1){
+	margin-right: 1px;
+}
+.zjr_mec-z ul li:nth-child(2) a:nth-child(1){
+	display: block;
+	width: 100%;
+	margin-bottom:0.5px;
+}
+.zjr_mec-z ul li a img{
+	width: 100%;
+	
+}
+/*掌上钜惠结束*/
+/*淘机馆开始*/
+.zjr_mec-t div{ 
+	
+}
+.zjr_mec-t ul{
+	width: 100%;
+}
+.zjr_mec-t ul li{
+	width: 49.5%;
+}
+.zjr_mec-t ul li a img{
+	width: 100%;
+}
+/*淘机馆结束*/
+/*酷玩绑开始*/
+.zjr_mec-k  ul{
+	width: 100%;
+}
+.zjr_mec-k ul li{
+	width: 49.5%;
+}
+.zjr_mec-k ul li a img{
+	width: 100%;
+}
+/*酷玩绑结束*/
+/*折扣惠开始*/
+.min{
+	width: 100%;
+}
+.min div{
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	margin-top: 10px;
+	/*margin-bottom: 10px;*/
+	font-size: 18px;
+	background-color: white;
+}
+.min ul{
+	width: 100%;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: white;
+	margin-bottom: 50px;
+}
+.min ul .item{
+	float: left;
+	width: 48%;
+	border: 1px solid #e2e2e2;
+	margin-left: 5px;
+	padding-right: 5px;
+	margin-bottom: 10px;
+}
+.min ul .item img{
+	width: 100%;
+}
+.min ul .item p{
+	padding-left: 10px;
+	margin-bottom: 5px;
+}
+.min ul .item p:nth-child(2){
+	color: #000000;
+}
+.min ul .item p:nth-child(3){
+	color: blue;
+}
+.min ul .item span:nth-child(4){
+	display: block;
+	width: 20%;
+	float: left;
+	margin-bottom: 5px;
+	color: red;
+}
+.min ul .item span:nth-child(5){
+	display: block;
+	width: 45%;
+	float: right;
+	margin-bottom: 5px;
+	color: red;
+	border: solid 1px red;
+	text-align: center;
+	border-radius: 10px;
+}
+/*折扣惠结束*/
+/*页尾开始*/
+.fot{
+	width: 100%;
+	height:100px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	/*background-color: red;*/
+}
+.fot img{
+	width: 100%;
+}
+/*页尾结束*/
+.nav{
+	
+}

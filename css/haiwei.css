@@ -1,0 +1,111 @@
+.hwt{
+	max-width: 650px;
+	min-width: 300px;
+	width: 100%;
+	background-color: #f2f2f2;
+}
+
+/*banner开始*/
+.banner a{
+	display: block;
+	width: 100%;		
+}
+.banner a img{
+	width: 100%;
+}
+.banner a:nth-child(2){
+	position: absolute;
+	width: 60%;
+	left: 50%;
+	margin-left:-30%;
+}
+/*banner结束*/
+/*导航开始*/
+.nav{
+	
+}
+.nav ul {
+	width: 97%;
+	margin: 5px auto;
+	border-radius: 10px;
+	height: 41px;
+	line-height: 41px;
+	border: solid 1px red;
+	text-align: center;
+}
+.nav ul li{
+	float: left;
+	height: 40px;
+	width: 33.333333333%;
+	border-right: solid 1px red;
+}
+.nav ul li:last-child{
+	border-right: none;
+}
+.nav ul li a {
+	font-weight: 900;
+	color: red;
+}
+/*导航结束*/
+.sjzq{
+	width: 100%;
+}
+.imgs{
+	width: 100%;
+}
+/*手机专区开始*/
+.sjtop{
+	width:100%;
+	background-color: white;
+}
+.sjtop ul{
+	width: 100%;
+}
+.sjtop ul li{
+	width: 100%;
+	/*border: solid 1px red;*/
+}
+
+.sjtop ul li .one{
+	/*border: solid 1px red;*/
+	width: 50%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.sjtop ul li .two{
+	width:50%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	/*height: 50px;*/
+	/*border:solid 1px red;*/
+}
+.sjtop ul li .two img{
+	width: 40%;
+}
+.sjtop ul li .two h3{
+	font-size: 14px;
+	color: #000000;
+	/*margin-left: 10px;*/
+	margin-right: 10px;
+}
+.sjtop ul li .two .m{
+	color: red;
+	font-size:18px ;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.sjtop ul li .two .ligm{
+	display: block;
+	width: 50%;
+	border: solid 1px red;
+	color: red;
+	border-radius: 5px;
+	text-align: center;
+}
+.sjtop ul li .two .pa{
+	color: #999999;
+}
+/*手机专区结束*/
